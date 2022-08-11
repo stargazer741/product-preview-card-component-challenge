@@ -118,7 +118,7 @@ body {
   }
 
   .image-container img {
-    content: url(/images/image-product-desktop.jpg);
+    content: url(images/image-product-desktop.jpg);
     width: 300px;
     height: 450px;
     border-top-right-radius: 0;
