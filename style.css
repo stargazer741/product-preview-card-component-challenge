@@ -26,6 +26,7 @@ body {
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -101,7 +102,11 @@ body {
   color: var(--white);
   padding: 15px 60px;
   border-radius: 10px;
-  
+  cursor: pointer;
+}
+
+.addToCart:active {
+  background-color: var(--dark-cyan-btn);
 }
 
 .addToCart::before {
@@ -118,7 +123,7 @@ body {
   }
 
   .image-container img {
-    content: url(images/image-product-desktop.jpg);
+    content: url("images/image-product-desktop.jpg");
     width: 300px;
     height: 450px;
     border-top-right-radius: 0;
@@ -142,4 +147,14 @@ body {
     word-spacing: 5px;
   }
   
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
